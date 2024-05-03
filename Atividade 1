@@ -1,0 +1,34 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Atvstring12 {
+
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+
+        String login, senha, l, s;
+
+        System.out.println("******Faça o cadastro do seu login*******");
+        System.out.print("Faça o cadastro do seu login: ");
+        l = ler.next();
+        System.out.print("Faça o cadastro da sua senha: ");
+        s = ler.next();
+
+        System.out.println("Cadastro realizado");
+        System.out.println("**********");
+
+        System.out.print("Informe seu login: ");
+        login = ler.next();
+        System.out.print("Informe sua senha: ");
+        senha = ler.next();
+
+        if (login.equals(l) && senha.equals(s)) {
+            System.out.println("Bem vindo ao sistema SESI SENAI");
+        } else {
+            System.out.println("Dados incorretos, informe os dados novamente");
+        }
+
+        ler.close();
+    }
+}
