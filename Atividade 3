@@ -1,0 +1,21 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Exemplo2 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        int numero;
+
+        System.out.println("Informe o número:");
+        numero = ler.nextInt();
+
+        if (numero > 0) {
+            System.out.println("O número informado é: " + numero);
+        } else {
+            System.out.println("Ocorreu um erro, informe o número novamente: ");
+        }
+
+        ler.close();
+    }
+}
