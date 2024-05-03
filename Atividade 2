@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Atvstring17 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+
+        System.out.println("Insira um mês entre janeiro a dezembro: ");
+        String mes = ler.next();
+
+        switch(mes.toLowerCase()) {
+            case "janeiro":
+                System.out.println("O mês informado é o 1º.");
+                break;
+            case "fevereiro":
+                System.out.println("O mês informado é o 2º.");
+                break;
+            case "março":
+                System.out.println("O mês informado é o 3º.");
+                break;
+            case "abril":
+                System.out.println("O mês informado é o 4º.");
+                break;
+            case "maio":
+                System.out.println("O mês informado é o 5º.");
+                break;
+            case "junho":
+                System.out.println("O mês informado é o 6º.");
+                break;
+            case "julho":
+                System.out.println("O mês informado é o 7º.");
+                break;
+            case "agosto":
+                System.out.println("O mês informado é o 8º.");
+                break;
+            case "setembro":
+                System.out.println("O mês informado é o 9º.");
+                break;
+            case "outubro":
+                System.out.println("O mês informado é o 10º.");
+                break;
+            case "novembro":
+                System.out.println("O mês informado é o 11º.");
+                break;
+            case "dezembro":
+                System.out.println("O mês informado é o 12º.");
+                break;
+            default:
+                System.out.println("Mês inválido! Insira novamente o mês.");
+        }
+
+        ler.close();
+    }
+}
