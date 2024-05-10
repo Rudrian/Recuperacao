@@ -7,7 +7,7 @@ public class Recupera {
         Scanner ler = new Scanner(System.in);
 
         System.out.println("Informe o seu sexo: ");
-        Object sexo = ler.next();
+        String sexo = ler.next();
 
         if (sexo.equals("M") || sexo.equals("m")) {
             System.out.println("Masculino");
