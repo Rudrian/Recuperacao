@@ -7,7 +7,7 @@ public class Atvstring17 {
         System.out.println("Insira um mês entre janeiro a dezembro: ");
         String mes = ler.next();
 
-        switch(mes.toLowerCase()) {
+        switch(mes) {
             case "janeiro":
                 System.out.println("O mês informado é o 1º.");
                 break;
