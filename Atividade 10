@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.println("Digite o primeiro valor:");
-        double valor1 = scanner.nextDouble();
+        double valor1 = ler.nextDouble();
 
         System.out.println("Digite o segundo valor:");
-        double valor2 = scanner.nextDouble();
+        double valor2 = ler.nextDouble();
 
         System.out.println("Digite o operador aritmético (+, -, *, /):");
-        char operador = scanner.next().charAt(0);
+        char operador = ler.next().charAt(0);
 
         double resultado = 0;
 
@@ -40,6 +40,6 @@ public class Calculadora {
 
         System.out.println("O resultado é: " + resultado);
 
-        scanner.close();
+        ler.close();
     }
 }
